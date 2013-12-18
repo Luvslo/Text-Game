@@ -13,8 +13,8 @@
 		  echo "Failed to connect to MySQL: " . mysqli_connect_error();
 		  }else{
 		  	$user = $_POST['username'];
-		  	$pepper = 'FGJ:]%||¥R/8f';
-		  	$salt = '&85Sfgh#??SRr';
+		  	$pepper = 'RS%11(\T]?^by7f';
+		  	$salt = '[}086Sd5ee3!8k8';
 		  					// Salt the password and pepper the hash.
 		  	$password = sha1($_POST['password'].$salt);
 		  	
