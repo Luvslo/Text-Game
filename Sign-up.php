@@ -15,8 +15,8 @@
 				$signup_username = $_POST['username_sign'];
 				$signup_password = $_POST['password_sign'];
 				
-				$pepper = 'FGJ:]%||¥R/8f';
-				$salt = '&85Sfgh#??SRr';
+				$pepper = 'RS%11(\T]?^by7f';
+				$salt = '[}086Sd5ee3!8k8';
 				$password = sha1($signup_password.$salt);
 				$encrypted = hash('sha512', $signup_username.$password.$pepper);
 
